@@ -1,0 +1,70 @@
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$background-color: #f8f9fa;
+$border-color: #ccc;
+$modal-background: rgba(0, 0, 0, 0.5);
+$modal-content-background: white;
+
+.app {
+  font-family: Arial, sans-serif;
+}
+
+.search-container {
+  margin-bottom: 20px;
+}
+
+.no-results {
+  color: red;
+  text-align: center;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: $modal-background;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .modal-content {
+    background: $modal-content-background;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 600px;
+
+    .modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .modal-body {
+      margin-top: 10px;
+    }
+  }
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid $border-color;
+  border-radius: 4px;
+}
+
+button {
+  background-color: $primary-color;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+
+  &:disabled {
+    background-color: $secondary-color;
+    cursor: not-allowed;
+  }
+}
