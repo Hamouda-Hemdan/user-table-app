@@ -6,7 +6,7 @@ Table User App is a React-based web application designed to display and manage u
 
 ## Features
 
-- **Search**: Filter users by name, age, gender, or city., or you can search by Value:key for example (firstname:Emily).
+- **Search**: Filter users by name, age, gender, or city., or you can search by key:value for example (firstname:Emily).
 - **Sort**: Sort users by any column in ascending or descending order or without by clcik on the colume you want to sort it.
 - **Resizable Columns**: Adjust the width of table columns, by click on the right black in colume you can move right and left.
 - **User Modal**: View detailed information about a user in a modal, open by click on user.
